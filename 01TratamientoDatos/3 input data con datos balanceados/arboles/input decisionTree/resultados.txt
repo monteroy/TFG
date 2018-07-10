@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     RapidMinerData
+Instances:    424064
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+edad = 10: 1 (16681.0/1133.0)
+edad = 11: 1 (37989.0/9160.0)
+edad = 12: 1 (20908.0/5257.0)
+edad = 13
+|   estudios = 20: 1 (719.0)
+|   estudios = 21
+|   |   trabajo = 42
+|   |   |   municipio = 52: 1 (4325.0)
+|   |   |   municipio = 50: 2 (101920.0/41989.0)
+|   |   |   municipio = 51: 1 (1881.0)
+|   |   trabajo = 40
+|   |   |   sexo = 100: 1 (463.0)
+|   |   |   sexo = 101: 2 (118079.0/47813.0)
+|   |   trabajo = 41: 2 (1599.0/632.0)
+|   estudios = 22: 2 (9741.0/1506.0)
+|   estudios = 23: 2 (7125.0/1276.0)
+edad = 14: 2 (8587.0/1469.0)
+edad = 15: 2 (8619.0/2671.0)
+edad = 16: 1 (10688.0/4076.0)
+edad = 17
+|   trabajo = 42: 1 (42973.0/16753.0)
+|   trabajo = 40: 2 (17061.0/2660.0)
+|   trabajo = 41: 1 (50.0)
+edad = 18: 1 (14656.0/2967.0)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	25
+
+
+Time taken to build model: 2.83 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      284702               67.1366 %
+Incorrectly Classified Instances    139362               32.8634 %
+Kappa statistic                          0.3427
+Mean absolute error                      0.416 
+Root mean squared error                  0.4561
+Relative absolute error                 83.2009 %
+Root relative squared error             91.2157 %
+Total Number of Instances           424064     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,528    0,186    0,740      0,528    0,616      0,358    0,716     0,734     1
+                 0,814    0,472    0,633      0,814    0,713      0,358    0,716     0,689     2
+Weighted Avg.    0,671    0,329    0,687      0,671    0,664      0,358    0,716     0,712     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 111987 100016 |      a = 1
+  39346 172715 |      b = 2
+

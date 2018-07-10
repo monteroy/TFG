@@ -1,0 +1,73 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     RapidMinerData
+Instances:    424064
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+edad = 10: 1 (21945.0/3205.0)
+edad = 11: 1 (27948.0/5211.0)
+edad = 12: 1 (20908.0/5257.0)
+edad = 13
+|   estudios = 20: 1 (8584.0/1877.0)
+|   estudios = 21
+|   |   municipio = 52
+|   |   |   sexo = 100: 1 (3039.0)
+|   |   |   sexo = 101: 2 (102555.0/42733.0)
+|   |   municipio = 50: 2 (125703.0/45694.0)
+|   |   municipio = 51
+|   |   |   sexo = 100: 1 (1881.0)
+|   |   |   sexo = 101: 2 (8108.0/2374.0)
+|   estudios = 22: 2 (9741.0/1506.0)
+|   estudios = 23: 2 (7125.0/1276.0)
+edad = 14: 2 (8587.0/1469.0)
+edad = 15: 2 (8619.0/2671.0)
+edad = 16: 1 (10688.0/4076.0)
+edad = 17: 1 (30459.0/10408.0)
+edad = 18: 1 (28174.0/9312.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	21
+
+
+Time taken to build model: 1.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      286995               67.6773 %
+Incorrectly Classified Instances    137069               32.3227 %
+Kappa statistic                          0.3535
+Mean absolute error                      0.42  
+Root mean squared error                  0.4583
+Relative absolute error                 84.0056 %
+Root relative squared error             91.6561 %
+Total Number of Instances           424064     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,539    0,186    0,744      0,539    0,625      0,368    0,715     0,725     1
+                 0,814    0,461    0,639      0,814    0,716      0,368    0,715     0,682     2
+Weighted Avg.    0,677    0,323    0,691      0,677    0,671      0,368    0,715     0,703     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 114280  97723 |      a = 1
+  39346 172715 |      b = 2
+

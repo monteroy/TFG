@@ -1,0 +1,1 @@
+las matrices sin reducir son de tamaño superior al permitido en Github

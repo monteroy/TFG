@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     hypertension
+Instances:    2432466
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: 2
+
+Time taken to build model: 0.11 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 11.3 seconds
+
+=== Summary ===
+
+Correctly Classified Instances      720868               87.1626 %
+Incorrectly Classified Instances    106170               12.8374 %
+Kappa statistic                          0     
+Mean absolute error                      0.224 
+Root mean squared error                  0.3345
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances           827038     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,128     1
+                 1,000    1,000    0,872      1,000    0,931      ?        0,500     0,872     2
+Weighted Avg.    0,872    0,872    ?          0,872    ?          ?        0,500     0,776     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+      0 106170 |      a = 1
+      0 720868 |      b = 2
+

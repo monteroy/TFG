@@ -1,0 +1,28 @@
+=== Evaluation result ===
+
+Scheme: RandomSubSpace
+Options: -P 0.5 -S 1 -num-slots 1 -I 100 -W weka.classifiers.trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1
+Relation: RapidMinerData
+
+
+Correctly Classified Instances      156264               73.7192 %
+Incorrectly Classified Instances     55708               26.2808 %
+Kappa statistic                          0.4742
+Mean absolute error                      0.4262
+Root mean squared error                  0.4458
+Relative absolute error                 85.2353 %
+Root relative squared error             89.1509 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,813    0,339    0,707      0,813    0,756      0,480    0,780     0,770     1
+                 0,661    0,187    0,779      0,661    0,715      0,480    0,780     0,764     2
+Weighted Avg.    0,737    0,263    0,743      0,737    0,736      0,480    0,780     0,767     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 86396 19824 |     a = 1
+ 35884 69868 |     b = 2

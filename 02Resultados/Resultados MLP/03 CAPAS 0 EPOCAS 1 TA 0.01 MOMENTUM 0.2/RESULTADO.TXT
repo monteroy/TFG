@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.2 -N 1 -V 0 -S 0 -E 20 -H 0 -output-debug-info
+Relation:     RapidMinerData
+Instances:    211972
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.1369290083438552
+    Attrib edad=10    1.193895537986792
+    Attrib edad=11    0.17938980474816577
+    Attrib edad=12    0.816132427537136
+    Attrib edad=13    -0.8663172071384044
+    Attrib edad=14    -1.055106773109887
+    Attrib edad=15    -0.7607006060905854
+    Attrib edad=16    -0.07969315860622929
+    Attrib edad=17    -0.0742524793880819
+    Attrib edad=18    -0.025556725127205273
+    Attrib estudios=20    -0.1991895810096706
+    Attrib estudios=21    0.7818168284500829
+    Attrib estudios=22    -0.48119899911516956
+    Attrib estudios=23    -0.3868165054268956
+    Attrib claseSocial=32    -0.056644300963903764
+    Attrib claseSocial=35    0.07217221837790148
+    Attrib claseSocial=31    -0.11854166630841668
+    Attrib claseSocial=37    -0.12445572184202504
+    Attrib claseSocial=30    -0.24462484427436185
+    Attrib claseSocial=33    -0.005834420614535152
+    Attrib claseSocial=34    0.02420643722326
+    Attrib claseSocial=36    -0.08480962684138607
+    Attrib trabajo=42    -0.07886679171337058
+    Attrib trabajo=40    -0.2904967578927392
+    Attrib trabajo=41    0.28609667596281907
+    Attrib municipio=50    -0.7579579249665602
+    Attrib municipio=51    0.2700770698034968
+    Attrib municipio=52    0.36412244326676174
+    Attrib sexo=101    -0.9624775047043547
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.09054898816882
+    Attrib edad=10    -1.179079645930963
+    Attrib edad=11    -0.16438358717969148
+    Attrib edad=12    -0.8023387564729536
+    Attrib edad=13    0.8813684196224896
+    Attrib edad=14    1.069437255435653
+    Attrib edad=15    0.7751076117510025
+    Attrib edad=16    0.09411703783780197
+    Attrib edad=17    0.08881251708185536
+    Attrib edad=18    0.0400310321326313
+    Attrib estudios=20    0.17542170178270466
+    Attrib estudios=21    -0.806164733210217
+    Attrib estudios=22    0.45688149413792734
+    Attrib estudios=23    0.361609331956654
+    Attrib claseSocial=32    0.059329492263101385
+    Attrib claseSocial=35    -0.06923465439160248
+    Attrib claseSocial=31    0.12158987912459888
+    Attrib claseSocial=37    0.1277468943441065
+    Attrib claseSocial=30    0.24804997511788843
+    Attrib claseSocial=33    0.008428542033296994
+    Attrib claseSocial=34    -0.02174771835958934
+    Attrib claseSocial=36    0.08454968160919932
+    Attrib trabajo=42    0.09200215358820178
+    Attrib trabajo=40    0.30395001872323224
+    Attrib trabajo=41    -0.2846708724260602
+    Attrib municipio=50    0.7375302673012184
+    Attrib municipio=51    -0.2911353929364995
+    Attrib municipio=52    -0.38487999466695105
+    Attrib sexo=101    0.9628273797211871
+Class 1
+    Input
+    Node 0
+Class 2
+    Input
+    Node 1
+
+
+Time taken to build model: 0.94 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      155789               73.4951 %
+Incorrectly Classified Instances     56183               26.5049 %
+Kappa statistic                          0.4697
+Mean absolute error                      0.3712
+Root mean squared error                  0.44  
+Relative absolute error                 74.2462 %
+Root relative squared error             87.9907 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,805    0,336    0,707      0,805    0,753      0,474    0,766     0,727     1
+                 0,664    0,195    0,773      0,664    0,714      0,474    0,766     0,739     2
+Weighted Avg.    0,735    0,265    0,740      0,735    0,734      0,474    0,766     0,733     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 85537 20683 |     a = 1
+ 35500 70252 |     b = 2
+

@@ -1,0 +1,101 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     RapidMinerData
+Instances:    423944
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+edad = 10: 1 (18387.0/1177.0)
+edad = 11: 1 (36483.0/9176.0)
+edad = 12: 1 (20934.0/5385.0)
+edad = 13
+|   estudios = 20
+|   |   municipio = 50: 2 (82153.0/16655.0)
+|   |   municipio = 51
+|   |   |   claseSocial = 32: 2 (0.0)
+|   |   |   claseSocial = 35: 2 (0.0)
+|   |   |   claseSocial = 31: 1 (1823.0)
+|   |   |   claseSocial = 37: 2 (7789.0/2182.0)
+|   |   |   claseSocial = 30: 2 (0.0)
+|   |   |   claseSocial = 33: 2 (0.0)
+|   |   |   claseSocial = 34: 2 (0.0)
+|   |   |   claseSocial = 36: 2 (0.0)
+|   |   municipio = 52
+|   |   |   claseSocial = 32: 2 (9980.0/3389.0)
+|   |   |   claseSocial = 35: 2 (3361.0/1145.0)
+|   |   |   claseSocial = 31: 1 (2940.0)
+|   |   |   claseSocial = 37: 2 (29874.0/5568.0)
+|   |   |   claseSocial = 30: 2 (1998.0/415.0)
+|   |   |   claseSocial = 33: 2 (8564.0/2675.0)
+|   |   |   claseSocial = 34: 2 (3471.0/1148.0)
+|   |   |   claseSocial = 36: 2 (365.0/89.0)
+|   estudios = 21: 1 (92787.0/31461.0)
+|   estudios = 22: 2 (9825.0/1590.0)
+|   estudios = 23: 2 (7034.0/1273.0)
+edad = 14
+|   claseSocial = 32: 2 (0.0)
+|   claseSocial = 35: 1 (106.0)
+|   claseSocial = 31: 2 (4558.0/1003.0)
+|   claseSocial = 37: 2 (3983.0/394.0)
+|   claseSocial = 30: 2 (0.0)
+|   claseSocial = 33: 2 (0.0)
+|   claseSocial = 34: 2 (0.0)
+|   claseSocial = 36: 2 (0.0)
+edad = 15
+|   claseSocial = 32: 2 (0.0)
+|   claseSocial = 35: 1 (160.0)
+|   claseSocial = 31: 2 (4491.0/1624.0)
+|   claseSocial = 37: 2 (3664.0/827.0)
+|   claseSocial = 30: 2 (0.0)
+|   claseSocial = 33: 2 (0.0)
+|   claseSocial = 34: 2 (0.0)
+|   claseSocial = 36: 2 (0.0)
+edad = 16: 1 (10720.0/4054.0)
+edad = 17: 1 (30510.0/10412.0)
+edad = 18: 1 (27984.0/9269.0)
+
+Number of Leaves  : 	42
+
+Size of the tree : 	49
+
+
+Time taken to build model: 0.89 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      313033               73.8383 %
+Incorrectly Classified Instances    110911               26.1617 %
+Kappa statistic                          0.4768
+Mean absolute error                      0.3723
+Root mean squared error                  0.4315
+Relative absolute error                 74.4551 %
+Root relative squared error             86.2901 %
+Total Number of Instances           423944     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,811    0,334    0,708      0,811    0,756      0,482    0,773     0,759     1
+                 0,666    0,189    0,779      0,666    0,718      0,482    0,773     0,755     2
+Weighted Avg.    0,738    0,262    0,744      0,738    0,737      0,482    0,773     0,757     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 171900  39977 |      a = 1
+  70934 141133 |      b = 2
+

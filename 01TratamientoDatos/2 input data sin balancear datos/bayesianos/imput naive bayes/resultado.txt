@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     RapidMinerData
+Instances:    2432466
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+trabajo = 42: 2 (397575.0/97369.0)
+trabajo = 40: 2 (389160.0/21974.0)
+trabajo = 41
+|   edad = 10: 2 (0.0)
+|   edad = 11: 2 (0.0)
+|   edad = 12: 2 (53193.0/2.0)
+|   edad = 13: 2 (73599.0/1644.0)
+|   edad = 14: 2 (74510.0/2833.0)
+|   edad = 15
+|   |   municipio = 50: 2 (692385.0/55152.0)
+|   |   municipio = 51: 1 (5881.0)
+|   |   municipio = 52: 1 (10183.0)
+|   edad = 16: 2 (730094.0/116370.0)
+|   edad = 17: 2 (0.0)
+|   edad = 18: 2 (5886.0/1338.0)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	16
+
+
+Time taken to build model: 8.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     2135784               87.8032 %
+Incorrectly Classified Instances    296682               12.1968 %
+Kappa statistic                          0.0862
+Mean absolute error                      0.2041
+Root mean squared error                  0.3194
+Relative absolute error                 91.0725 %
+Root relative squared error             95.4321 %
+Total Number of Instances          2432466     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,051    0,000    1,000      0,051    0,098      0,212    0,695     0,277     1
+                 1,000    0,949    0,877      1,000    0,935      0,212    0,695     0,934     2
+Weighted Avg.    0,878    0,827    0,893      0,878    0,827      0,212    0,695     0,850     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+   16064  296682 |       a = 1
+       0 2119720 |       b = 2
+

@@ -1,0 +1,28 @@
+=== Evaluation result ===
+
+Scheme: Stacking
+Options: -X 10 -M "weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1" -S 1 -num-slots 1 -B "weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1"
+Relation: RapidMinerData
+
+
+Correctly Classified Instances      156451               73.8074 %
+Incorrectly Classified Instances     55521               26.1926 %
+Kappa statistic                          0.476 
+Mean absolute error                      0.3843
+Root mean squared error                  0.4383
+Relative absolute error                 76.8524 %
+Root relative squared error             87.6649 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,812    0,336    0,708      0,812    0,756      0,481    0,737     0,682     1
+                 0,664    0,188    0,778      0,664    0,717      0,481    0,737     0,712     2
+Weighted Avg.    0,738    0,262    0,743      0,738    0,737      0,481    0,737     0,697     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 86199 20021 |     a = 1
+ 35500 70252 |     b = 2

@@ -1,0 +1,28 @@
+=== Evaluation result ===
+
+Scheme: AdaBoostM1
+Options: -P 100 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump
+Relation: RapidMinerData
+
+
+Correctly Classified Instances      153110               72.2312 %
+Incorrectly Classified Instances     58862               27.7688 %
+Kappa statistic                          0.4445
+Mean absolute error                      0.4029
+Root mean squared error                  0.4442
+Relative absolute error                 80.5746 %
+Root relative squared error             88.8309 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,780    0,336    0,700      0,780    0,738      0,447    0,752     0,730     1
+                 0,664    0,220    0,750      0,664    0,705      0,447    0,752     0,743     2
+Weighted Avg.    0,722    0,278    0,725      0,722    0,721      0,447    0,752     0,736     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 82858 23362 |     a = 1
+ 35500 70252 |     b = 2

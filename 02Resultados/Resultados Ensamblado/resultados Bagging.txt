@@ -1,0 +1,28 @@
+=== Evaluation result ===
+
+Scheme: Bagging
+Options: -P 100 -S 1 -num-slots 1 -I 100 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation: RapidMinerData
+
+
+Correctly Classified Instances      156530               73.8447 %
+Incorrectly Classified Instances     55442               26.1553 %
+Kappa statistic                          0.4767
+Mean absolute error                      0.3724
+Root mean squared error                  0.4315
+Relative absolute error                 74.4805 %
+Root relative squared error             86.3068 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,812    0,336    0,708      0,812    0,757      0,482    0,772     0,759     1
+                 0,664    0,188    0,779      0,664    0,717      0,482    0,772     0,753     2
+Weighted Avg.    0,738    0,262    0,744      0,738    0,737      0,482    0,772     0,756     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 86278 19942 |     a = 1
+ 35500 70252 |     b = 2

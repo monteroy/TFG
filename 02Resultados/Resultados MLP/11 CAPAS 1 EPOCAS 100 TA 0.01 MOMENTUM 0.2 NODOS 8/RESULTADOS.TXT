@@ -1,0 +1,322 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.2 -N 100 -V 0 -S 0 -E 20 -H 8
+Relation:     RapidMinerData
+Instances:    211972
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.5129510166727608
+    Node 2    1.4581677663788284
+    Node 3    4.48398034111739
+    Node 4    -1.2347508396754636
+    Node 5    -1.300642491273314
+    Node 6    -1.3636789802233853
+    Node 7    1.6670215946395097
+    Node 8    -0.6616343453549928
+    Node 9    -1.6586788242431085
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.5130087366653605
+    Node 2    -1.458137621276033
+    Node 3    -4.483391134131547
+    Node 4    1.2460558863130073
+    Node 5    1.3007639269640372
+    Node 6    1.3637455178080506
+    Node 7    -1.666889389210175
+    Node 8    0.6493023464210054
+    Node 9    1.6584941702110827
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.1477744577482328
+    Attrib edad=10    1.535468087263538
+    Attrib edad=11    1.6319177808320193
+    Attrib edad=12    1.9804448824516003
+    Attrib edad=13    0.11744000106942899
+    Attrib edad=14    -2.310846610628666
+    Attrib edad=15    -1.523419601889213
+    Attrib edad=16    -1.4955757812171382
+    Attrib edad=17    -1.810972056521657
+    Attrib edad=18    1.0787487437523462
+    Attrib estudios=20    -0.45926206917859724
+    Attrib estudios=21    2.232959377652207
+    Attrib estudios=22    -1.0098653010180751
+    Attrib estudios=23    -0.952695113645296
+    Attrib claseSocial=32    1.848031664150967
+    Attrib claseSocial=35    -1.5798858783601792
+    Attrib claseSocial=31    -1.4737438621573098
+    Attrib claseSocial=37    1.1195421750729515
+    Attrib claseSocial=30    -0.7296405522219068
+    Attrib claseSocial=33    -0.04874900032562558
+    Attrib claseSocial=34    0.06677939004899214
+    Attrib claseSocial=36    0.04251298848690856
+    Attrib trabajo=42    -0.09795354500094039
+    Attrib trabajo=40    -1.4314477933178342
+    Attrib trabajo=41    1.442211383948231
+    Attrib municipio=50    -0.9828675567660721
+    Attrib municipio=51    1.192131601361047
+    Attrib municipio=52    -0.409156767178339
+    Attrib sexo=100    2.3523681951191127
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.24406503552622588
+    Attrib edad=10    3.0976295027464675
+    Attrib edad=11    3.2116912521737753
+    Attrib edad=12    -0.5588937818390136
+    Attrib edad=13    -1.305622220695981
+    Attrib edad=14    -1.3954675036455102
+    Attrib edad=15    -1.165497018085093
+    Attrib edad=16    -1.2834100176166168
+    Attrib edad=17    0.5050993754964587
+    Attrib edad=18    0.944858294619692
+    Attrib estudios=20    0.5943441088836338
+    Attrib estudios=21    -0.977205808483114
+    Attrib estudios=22    0.560440219365676
+    Attrib estudios=23    0.37933583565293355
+    Attrib claseSocial=32    -2.6632935338086874
+    Attrib claseSocial=35    0.02410509179420967
+    Attrib claseSocial=31    2.8007199922485264
+    Attrib claseSocial=37    -0.6042753561920174
+    Attrib claseSocial=30    0.3880016787998706
+    Attrib claseSocial=33    0.6501754586471811
+    Attrib claseSocial=34    0.7111995553209338
+    Attrib claseSocial=36    0.27655458259739124
+    Attrib trabajo=42    -0.635471136083595
+    Attrib trabajo=40    0.29538694521681497
+    Attrib trabajo=41    0.5676232444020943
+    Attrib municipio=50    -2.016685412024648
+    Attrib municipio=51    1.1857246613681678
+    Attrib municipio=52    1.1099178377883367
+    Attrib sexo=100    2.2484037817525175
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.3654297002313509
+    Attrib edad=10    -0.05403862102430859
+    Attrib edad=11    -0.07080068619679739
+    Attrib edad=12    1.0655916061068293
+    Attrib edad=13    -0.9987334042355933
+    Attrib edad=14    0.9371255379382879
+    Attrib edad=15    0.5993690390839429
+    Attrib edad=16    0.4591757271999898
+    Attrib edad=17    0.2311911099909146
+    Attrib edad=18    0.33762491316330456
+    Attrib estudios=20    -1.0846668702539515
+    Attrib estudios=21    2.0682860693794107
+    Attrib estudios=22    -0.1301676563341996
+    Attrib estudios=23    -0.10436801066870592
+    Attrib claseSocial=32    0.16427972951267608
+    Attrib claseSocial=35    0.5091232717221853
+    Attrib claseSocial=31    0.02834212339916794
+    Attrib claseSocial=37    0.4493075419300103
+    Attrib claseSocial=30    0.3071701817698398
+    Attrib claseSocial=33    0.15353342686008536
+    Attrib claseSocial=34    0.22545207272112303
+    Attrib claseSocial=36    0.3623972404223107
+    Attrib trabajo=42    -0.1539566864828126
+    Attrib trabajo=40    0.1776869724906019
+    Attrib trabajo=41    0.18761111269548922
+    Attrib municipio=50    -0.8869350819052703
+    Attrib municipio=51    1.0881230621830005
+    Attrib municipio=52    0.21357344709217924
+    Attrib sexo=100    0.13331406545288396
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.4082029487597922
+    Attrib edad=10    -1.3600933803797361
+    Attrib edad=11    -1.6028710031558189
+    Attrib edad=12    -1.2417150633240226
+    Attrib edad=13    4.464079048346259
+    Attrib edad=14    2.4309750023023597
+    Attrib edad=15    2.2028506105569994
+    Attrib edad=16    -0.3467572315803303
+    Attrib edad=17    -1.1298562155990155
+    Attrib edad=18    -0.7826303788579142
+    Attrib estudios=20    0.7246740528618387
+    Attrib estudios=21    -1.2178486296560376
+    Attrib estudios=22    0.6144049883032922
+    Attrib estudios=23    0.5973145019910228
+    Attrib claseSocial=32    -1.3434524795162255
+    Attrib claseSocial=35    -1.2882473501533698
+    Attrib claseSocial=31    1.5805929124311007
+    Attrib claseSocial=37    1.0598314370911492
+    Attrib claseSocial=30    0.7884667961208037
+    Attrib claseSocial=33    0.8302441458002549
+    Attrib claseSocial=34    0.4049260606220308
+    Attrib claseSocial=36    0.3922719497341697
+    Attrib trabajo=42    0.29627554295447234
+    Attrib trabajo=40    0.4698019067786564
+    Attrib trabajo=41    -0.38602268191931705
+    Attrib municipio=50    0.6184596189567629
+    Attrib municipio=51    -0.6146046237790607
+    Attrib municipio=52    0.3877177690872649
+    Attrib sexo=100    -1.1968834359150045
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.09336211462439897
+    Attrib edad=10    -0.7366285817413372
+    Attrib edad=11    1.6272006362796987
+    Attrib edad=12    -2.504005746352523
+    Attrib edad=13    -0.561059341472557
+    Attrib edad=14    0.9215946780351948
+    Attrib edad=15    0.10221393741279612
+    Attrib edad=16    0.5026465471443272
+    Attrib edad=17    -0.6953144423902836
+    Attrib edad=18    0.7327061760306205
+    Attrib estudios=20    -1.0751696597363882
+    Attrib estudios=21    1.4981336926752393
+    Attrib estudios=22    -0.22671873224094238
+    Attrib estudios=23    -0.35289198605592637
+    Attrib claseSocial=32    1.1906206765477563
+    Attrib claseSocial=35    -0.9622475543665777
+    Attrib claseSocial=31    -1.8979493534070142
+    Attrib claseSocial=37    1.3958645130286804
+    Attrib claseSocial=30    0.5623517720655469
+    Attrib claseSocial=33    -0.4657691955774569
+    Attrib claseSocial=34    -0.7552600464310167
+    Attrib claseSocial=36    0.3164615131777105
+    Attrib trabajo=42    -0.042938123120799886
+    Attrib trabajo=40    0.5970167808644825
+    Attrib trabajo=41    -0.5452009365529975
+    Attrib municipio=50    -2.5198560083874533
+    Attrib municipio=51    1.5722671804945672
+    Attrib municipio=52    0.8418466967761157
+    Attrib sexo=100    1.2893878365764841
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.5095214178057255
+    Attrib edad=10    0.843338995398849
+    Attrib edad=11    -1.0606138291779015
+    Attrib edad=12    2.4416835477043115
+    Attrib edad=13    -1.3920307729799668
+    Attrib edad=14    0.2781739592030779
+    Attrib edad=15    0.4015364884999748
+    Attrib edad=16    0.35637805588724825
+    Attrib edad=17    -3.5815063654104655
+    Attrib edad=18    -1.8901533707550993
+    Attrib estudios=20    -0.7040282631830029
+    Attrib estudios=21    0.8822007157622512
+    Attrib estudios=22    -0.6358290664541785
+    Attrib estudios=23    -0.5808405378706263
+    Attrib claseSocial=32    -1.6965018002652776
+    Attrib claseSocial=35    0.42956666448843167
+    Attrib claseSocial=31    -2.565453012406797
+    Attrib claseSocial=37    1.209945163150588
+    Attrib claseSocial=30    -0.5951214692121802
+    Attrib claseSocial=33    0.15607620310658332
+    Attrib claseSocial=34    -0.3961137693215632
+    Attrib claseSocial=36    0.41263347291330316
+    Attrib trabajo=42    -1.4827285391179137
+    Attrib trabajo=40    1.0463705934126086
+    Attrib trabajo=41    0.020088061201265675
+    Attrib municipio=50    -1.4654951440266553
+    Attrib municipio=51    -1.4774540548228012
+    Attrib municipio=52    2.4312340954568894
+    Attrib sexo=100    -0.7282346840755185
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.28689628620839763
+    Attrib edad=10    0.03502750007837343
+    Attrib edad=11    0.14144027351174576
+    Attrib edad=12    0.8708210918477759
+    Attrib edad=13    -0.7575780108058647
+    Attrib edad=14    0.5214532085028062
+    Attrib edad=15    0.32543318659266485
+    Attrib edad=16    0.39455571738271356
+    Attrib edad=17    0.4075889340362741
+    Attrib edad=18    0.29771593076600367
+    Attrib estudios=20    -0.9203907064988426
+    Attrib estudios=21    1.7498994635658849
+    Attrib estudios=22    -0.031065109805332697
+    Attrib estudios=23    -0.009786367713563593
+    Attrib claseSocial=32    0.12534673869510432
+    Attrib claseSocial=35    0.44000456297301055
+    Attrib claseSocial=31    -0.021761444176058825
+    Attrib claseSocial=37    0.38684767946799475
+    Attrib claseSocial=30    0.3335565072425109
+    Attrib claseSocial=33    0.2122617129503267
+    Attrib claseSocial=34    0.2602618758272626
+    Attrib claseSocial=36    0.259511407131398
+    Attrib trabajo=42    -0.04403683023466665
+    Attrib trabajo=40    0.07361223726836505
+    Attrib trabajo=41    0.2218834242833166
+    Attrib municipio=50    -0.8378925954408663
+    Attrib municipio=51    0.8494101690887848
+    Attrib municipio=52    0.21965613189561917
+    Attrib sexo=100    0.09226975070284212
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.5895439820565384
+    Attrib edad=10    -1.803807697526311
+    Attrib edad=11    -2.060367687024937
+    Attrib edad=12    -1.6321987393148232
+    Attrib edad=13    4.358977650078295
+    Attrib edad=14    2.622597795811955
+    Attrib edad=15    0.9868948209625072
+    Attrib edad=16    0.1593510047449711
+    Attrib edad=17    -1.1113821146398317
+    Attrib edad=18    2.618479404281332
+    Attrib estudios=20    2.2427924895854368
+    Attrib estudios=21    -2.7231953006413785
+    Attrib estudios=22    0.9290883588446003
+    Attrib estudios=23    0.7951863412962399
+    Attrib claseSocial=32    0.7234547335106362
+    Attrib claseSocial=35    -0.866764267259506
+    Attrib claseSocial=31    -0.0699697608741967
+    Attrib claseSocial=37    1.411487926699202
+    Attrib claseSocial=30    0.702047396542507
+    Attrib claseSocial=33    0.7462691945933485
+    Attrib claseSocial=34    0.6585317823431739
+    Attrib claseSocial=36    0.3946808700798905
+    Attrib trabajo=42    -0.11845116290231589
+    Attrib trabajo=40    0.5378962328727672
+    Attrib trabajo=41    0.18902434276573885
+    Attrib municipio=50    1.5302744953642116
+    Attrib municipio=51    -0.9236210677936457
+    Attrib municipio=52    0.022539912330671253
+    Attrib sexo=100    -1.925637869959658
+Class 1
+    Input
+    Node 0
+Class 2
+    Input
+    Node 1
+
+
+Time taken to build model: 126.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      156526               73.8428 %
+Incorrectly Classified Instances     55446               26.1572 %
+Kappa statistic                          0.4767
+Mean absolute error                      0.3609
+Root mean squared error                  0.4242
+Relative absolute error                 72.1811 %
+Root relative squared error             84.8313 %
+Total Number of Instances           211972     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,812    0,336    0,708      0,812    0,757      0,482    0,795     0,797     1
+                 0,664    0,188    0,779      0,664    0,717      0,482    0,795     0,783     2
+Weighted Avg.    0,738    0,262    0,744      0,738    0,737      0,482    0,795     0,790     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 86279 19941 |     a = 1
+ 35505 70247 |     b = 2
+

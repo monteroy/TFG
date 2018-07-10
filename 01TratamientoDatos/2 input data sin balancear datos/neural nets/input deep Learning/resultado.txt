@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     RapidMinerData
+Instances:    2432466
+Attributes:   7
+              edad
+              estudios
+              claseSocial
+              trabajo
+              municipio
+              sexo
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+municipio = 50: 2 (2236626.0/272148.0)
+municipio = 51
+|   sexo = 100: 1 (5881.0)
+|   sexo = 101: 2 (66951.0/10166.0)
+municipio = 52
+|   sexo = 100: 1 (10183.0)
+|   sexo = 101: 2 (112825.0/14368.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	8
+
+
+Time taken to build model: 12.82 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances     2135784               87.8032 %
+Incorrectly Classified Instances    296682               12.1968 %
+Kappa statistic                          0.0862
+Mean absolute error                      0.2139
+Root mean squared error                  0.3271
+Relative absolute error                 95.4716 %
+Root relative squared error             97.7096 %
+Total Number of Instances          2432466     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,051    0,000    1,000      0,051    0,098      0,212    0,530     0,196     1
+                 1,000    0,949    0,877      1,000    0,935      0,212    0,530     0,878     2
+Weighted Avg.    0,878    0,827    0,893      0,878    0,827      0,212    0,530     0,790     
+
+=== Confusion Matrix ===
+
+       a       b   <-- classified as
+   16064  296682 |       a = 1
+       0 2119720 |       b = 2
+
