@@ -1,4 +1,4 @@
-![1531553705047](C:\Users\yolanda\AppData\Local\Temp\1531553705047.png)
+
 
 # **Universidad Internacional de La Rioja (UNIR)**
 
