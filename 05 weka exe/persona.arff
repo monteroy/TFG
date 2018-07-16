@@ -47,4 +47,4 @@
 @attribute sexo {100,101} 
 @attribute class {1,2} 
 @data 
-10 20 30 40 50 100 ? 
+16 23 31 40 52 101 ? 
